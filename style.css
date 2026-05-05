@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قوانين السيرفر</title>
+    <style>
+        /* تنسيق عام للصفحة */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a24; /* لون خلفية داكن ومريح */
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* حاوية المحتوى الرئيسي */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #242530;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+
+        /* العناوين */
+        h1 {
+            text-align: center;
+            color: #7289da; /* لون الديسكورد الشهير */
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #31333f;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            color: #ffaa00; /* لون مميز للعناوين الفرعية */
+            font-size: 1.8rem;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* القوائم والقوانين */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #2c2f3f;
+            margin-bottom: 12px;
+            padding: 15px;
+            border-radius: 8px;
+            border-right: 5px solid #7289da; /* خط جانبي جمالي */
+            line-height: 1.6;
+        }
+
+        li strong {
+            color: #00ffcc; /* تلوين بداية كل قانون */
+        }
+
+        /* الجداول (نظام العقوبات) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #2c2f3f;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: right;
+            border-bottom: 1px solid #3a3f56;
+        }
+
+        th {
+            background-color: #7289da;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #34384b; /* تأثير عند تمرير الماوس */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>📜 قوانين السيرفر الرسمية</h1>
+
+    <h2>💬 قوانين مجتمع الديسكورد</h2>
+    <ul>
+        <li><strong>1. الاحترام المتبادل:</strong> يمنع منعاً باتاً السب، الشتم، أو الإهانة بجميع أشكالها.</li>
+        <li><strong>2. العنصرية والسياسة:</strong> يمنع التطرق للمواضيع السياسية، الدينية، أو العنصرية.</li>
+        <li><strong>3. الإعلانات والسبام:</strong> يمنع نشر روابط سيرفرات أخرى أو الترويج دون إذن الإدارة.</li>
+    </ul>
+
+    <h2>🎭 قوانين الـ Roleplay الأساسية</h2>
+    <ul>
+        <li><strong>1. الالتزام بالحياة الواقعية:</strong> يجب عليك الخوف على حياتك وتجنب التصرفات الانتحارية.</li>
+        <li><strong>2. منع الـ Fail RP:</strong> يمنع القيام بأفعال غير منطقية لا يمكن القيام بها في الواقع.</li>
+        <li><strong>3. منع الـ Meta Gaming:</strong> يمنع استخدام معلومات عرفتها خارج اللعبة واستغلالها بالداخل.</li>
+    </ul>
+
+    <h2>⚠️ جدول نظام العقوبات</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>نوع المخالفة</th>
+                <th>الإجراء الأول</th>
+                <th>الإجراء الثاني</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>مخالفة الديسكورد (سبام)</td>
+                <td>تحذير شفهي</td>
+                <td>ميوت 24 ساعة</td>
+            </tr>
+            <tr>
+                <td>مخالفة رول بلاي (Fail RP)</td>
+                <td>تحذير مسجل</td>
+                <td>حظر مؤقت 3 أيام</td>
+            </tr>
+            <tr>
+                <td>إهانة الإدارة</td>
+                <td>حظر نهائي</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
